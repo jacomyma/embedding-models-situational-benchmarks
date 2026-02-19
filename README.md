@@ -10,15 +10,18 @@ The code is currently being adapted to our own benchmarks.
 
 ```
 embedding_benchmark/
+│
 ├── data/
-│   ├── ...            — our benchmark datasets
+│   └── ...            — our benchmark datasets
+│
 ├── benchmark/
 │   ├── __init__.py    — public API
 │   ├── models.py      — adapters (HuggingFace, OpenAI, …)
 │   ├── tasks.py       — benchmark tasks
 │   ├── cache.py       — disk caching of embeddings
 │   └── runner.py      — orchestrator + result helpers
-└── demo.ipynb         — interactive walkthrough
+│
+└── run-in-colab.ipynb — run benchmark in Google Colab
 ```
 
 ## Quickstart
