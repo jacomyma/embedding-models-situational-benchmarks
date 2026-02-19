@@ -1,3 +1,7 @@
+*.pyc
+/.cache
+/results
+
 # General
 .DS_Store
 __MACOSX/
