@@ -1,15 +1,21 @@
-# Embedding Benchmark Scaffold
+# Embedding Situational Benchmarks
 
 A lightweight, MTEB-inspired framework for comparing embedding models across tasks.
+
+## WORK IN PROGRESS!
+
+The code is currently being adapted to our own benchmarks.
 
 ## Structure
 
 ```
 embedding_benchmark/
+├── data/
+│   ├── ...            — our benchmark datasets
 ├── benchmark/
 │   ├── __init__.py    — public API
 │   ├── models.py      — adapters (HuggingFace, OpenAI, …)
-│   ├── tasks.py       — benchmark tasks (STS, Retrieval, Clustering)
+│   ├── tasks.py       — benchmark tasks
 │   ├── cache.py       — disk caching of embeddings
 │   └── runner.py      — orchestrator + result helpers
 └── demo.ipynb         — interactive walkthrough
@@ -45,6 +51,7 @@ results = runner.run()
 | `retrieval`   | `RetrievalTask`   | NDCG@10        | Synthetic (demo)    |
 | `clustering`  | `ClusteringTask`  | V-measure      | AG News (subsample) |
 
+
 ## Adding a Model
 
 Add a dict to `model_configs`:
@@ -56,6 +63,7 @@ Add a dict to `model_configs`:
 # OpenAI (needs OPENAI_API_KEY)
 {"type": "openai", "model": "text-embedding-3-large", "dimensions": 1024}
 ```
+
 
 ## Adding a Task
 
@@ -77,6 +85,7 @@ class MyTask(Task):
 
 TASK_REGISTRY["my-task"] = MyTask()
 ```
+
 
 ## Key Design Decisions
 
