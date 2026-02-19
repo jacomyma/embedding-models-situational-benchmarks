@@ -1,0 +1,915 @@
+id,Statement,Code,WVS question
+001-01,Family is very important in my life.,1,Q1
+001-02,Family is rather important in my life.,2,Q1
+001-03,Family is not very important in my life.,3,Q1
+001-04,Family is not at all important in my life.,4,Q1
+002-01,Friends are very important in my life.,1,Q2
+002-02,Friends are rather important in my life.,2,Q2
+002-03,Friends are not very important in my life.,3,Q2
+002-04,Friends are not at all important in my life.,4,Q2
+003-01,Leisure time is very important in my life.,1,Q3
+003-02,Leisure time is rather important in my life.,2,Q3
+003-03,Leisure time is not very important in my life.,3,Q3
+003-04,Leisure time is not at all important in my life.,4,Q3
+004-01,Politics are very important in my life.,1,Q4
+004-02,Politics are rather important in my life.,2,Q4
+004-03,Politics are not very important in my life.,3,Q4
+004-04,Politics are not at all important in my life.,4,Q4
+005-01,Work is very important in my life.,1,Q5
+005-02,Work is rather important in my life.,2,Q5
+005-03,Work is not very important in my life.,3,Q5
+005-04,Work is not at all important in my life.,4,Q5
+006-01,Religion is very important in my life.,1,Q6
+006-02,Religion is rather important in my life.,2,Q6
+006-03,Religion is not very important in my life.,3,Q6
+006-04,Religion is not at all important in my life.,4,Q6
+027-01,Making my parents proud has always been my primary goal in life.,1,Q27
+027-02,One of my goals in life has been to make my parents proud.,2,Q27
+027-03,Making my parents proud has rarely been among my main goals in life.,3,Q27
+027-04,Making my parents proud has never been a goal of mine in life.,4,Q27
+028-01,"When a mother works for pay, the children inevitably suffer.",1,Q28
+028-02,"When a mother works for pay, the children tend to suffer.",2,Q28
+028-03,"When a mother works for pay, the children don't necessarily suffer.",3,Q28
+028-04,"When a mother works for pay, the children do not suffer.",4,Q28
+029-01,Men unquestionably make better political leaders than women do.,1,Q29
+029-02,Men generally make better political leaders than women do.,2,Q29
+029-03,Men don't really make better political leaders than women do.,3,Q29
+029-04,Men absolutely do not make better political leaders than women do.,4,Q29
+030-01,A university education is far more important for a boy than for a girl.,1,Q30
+030-02,A university education is somewhat more important for a boy than for a girl.,2,Q30
+030-03,A university education is not really more important for a boy than for a girl.,3,Q30
+030-04,A university education is not at all more important for a boy than for a girl.,4,Q30
+031-01,Men are definitively better business executives than women.,1,Q31
+031-02,Men do tend to make somewhat better business executives than women.,2,Q31
+031-03,"Men don't really make better business executives than women, on the whole.",3,Q31
+031-04,Men are in no way better business executives than women.,4,Q31
+032-01,Being a housewife is every bit as fulfilling as working for pay.,1,Q32
+032-02,Being a housewife can be just as fulfilling as working for pay.,2,Q32
+032-03,Being a housewife is not quite as fulfilling as working for pay.,3,Q32
+032-04,Being a housewife is nowhere near as fulfilling as working for pay.,4,Q32
+033-01,"When jobs are scarce, men absolutely should have more right to a job than women.",1,Q33
+033-02,"When jobs are scarce, men should probably have more right to a job than women.",2,Q33
+033-03,"When jobs are scarce, it is unclear whether men should have more right to a job than women.",3,Q33
+033-04,"When jobs are scarce, men should probably not have more right to a job than women.",4,Q33
+033-05,"When jobs are scarce, men should absolutely not have more right to a job than women.",5,Q33
+034-01,"When jobs are scarce, employers must absolutely give priority to people of this country over immigrants.",1,Q34
+034-02,"When jobs are scarce, employers should probably give priority to people of this country over immigrants.",2,Q34
+034-03,"When jobs are scarce, it is debatable whether employers should give priority to people of this country over immigrants.",3,Q34
+034-04,"When jobs are scarce, employers should not necessarily give priority to people of this country over immigrants.",4,Q34
+034-05,"When jobs are scarce, employers should under no circumstances give priority to people of this country over immigrants.",5,Q34
+035-01,"If a woman earns more money than her husband, it will almost certainly cause problems.",1,Q35
+035-02,"If a woman earns more money than her husband, it may well cause problems.",2,Q35
+035-03,"If a woman earns more money than her husband, it may or may not cause problems.",3,Q35
+035-04,"If a woman earns more money than her husband, it isn't necessarily going to cause problems.",4,Q35
+035-05,"If a woman earns more money than her husband, it is almost certain not to cause problems.",5,Q35
+036-01,Homosexual couples are undoubtedly as good parents as other couples.,1,Q36
+036-02,Homosexual couples are generally as good parents as other couples.,2,Q36
+036-03,Homosexual couples may or may not be as good parents as other couples.,3,Q36
+036-04,Homosexual couples are not always as good parents as other couples.,4,Q36
+036-05,Homosexual couples are not as good parents as other couples.,5,Q36
+037-01,It is an absolute duty towards society to have children.,1,Q37
+037-02,It is arguably a duty towards society to have children.,2,Q37
+037-03,Whether having children is a duty towards society is debatable.,3,Q37
+037-04,Having children is not necessarily a duty towards society.,4,Q37
+037-05,Having children is in no way a duty towards society.,5,Q37
+038-01,Adult children absolutely have the duty to provide long-term care for their parents.,1,Q38
+038-02,Adult children generally have the duty to provide long-term care for their parents.,2,Q38
+038-03,Adult children may or may not have the duty to provide long-term care for their parents.,3,Q38
+038-04,Adult children don't necessarily have the duty to provide long-term care for their parents.,4,Q38
+038-05,Adult children have no duty to provide long-term care for their parents.,5,Q38
+039-01,People who don't work inevitably turn lazy.,1,Q39
+039-02,People who don't work tend to turn lazy.,2,Q39
+039-03,People who don't work may or may not turn lazy.,3,Q39
+039-04,People who don't work don't necessarily turn lazy.,4,Q39
+039-05,People who don't work do not turn lazy.,5,Q39
+040-01,Work is absolutely a duty towards society.,1,Q40
+040-02,Work is indeed a duty towards society.,2,Q40
+040-03,Work may or may not be a duty towards society.,3,Q40
+040-04,Work is not necessarily a duty towards society.,4,Q40
+040-05,Work is absolutely not a duty towards society.,5,Q40
+046-01,I am very happy.,1,Q46
+046-02,I am rather happy.,2,Q46
+046-03,I am not very happy.,3,Q46
+046-04,I am not happy at all.,4,Q46
+047-01,My health is in very good shape.,1,Q47
+047-02,My health is in good shape.,2,Q47
+047-03,My health is in fair shape.,3,Q47
+047-04,My health is in poor shape.,4,Q47
+047-05,My health is in very poor shape.,5,Q47
+048-01,"My life feels entirely determined by forces beyond my control, and my choices make no difference whatsoever.",1,Q48
+048-02,"I rarely feel my decisions matter, as outside forces almost always dictate how my life unfolds.",2,Q48
+048-03,"While I can make small choices, I generally feel that larger outcomes in my life are shaped by circumstances I can't control.",3,Q48
+048-04,"I have some sense of agency, but more often than not I feel that things happen to me rather than because of me.",4,Q48
+048-05,I feel equally pushed by external forces as I feel empowered by my own decisions.,5,Q48
+048-06,"I feel my choices generally shape my life, though external factors still limit my control more than I'd like.",6,Q48
+048-07,"I feel mostly in control of my life, even if I sometimes encounter circumstances that constrain my choices.",7,Q48
+048-08,"My decisions largely determine how my life unfolds, with only occasional outside forces meaningfully affecting my path.",8,Q48
+048-09,"I feel a strong sense of control over my life, and what happens to me is almost always a result of my own choices.",9,Q48
+048-10,"I feel entirely free to shape my life as I choose, and my decisions are the sole determinant of how it turns out.",10,Q48
+049-01,"I feel completely empty inside, as if my life has nothing meaningful to offer me.",1,Q49
+049-02,"I struggle deeply with my life, finding little that brings me genuine satisfaction.",2,Q49
+049-03,"I'm mostly unhappy with how my life has turned out, though a few things keep me going.",3,Q49
+049-04,"I'm more dissatisfied than not, and feel like something important is still missing.",4,Q49
+049-05,"I feel neither satisfied nor dissatisfied (my life feels just okay, nothing more).",5,Q49
+049-06,"I'm somewhat content with my life, even though there's still room for improvement.",6,Q49
+049-07,"I'm fairly satisfied overall, with more good in my life than bad.",7,Q49
+049-08,I feel quite good about my life and enjoy most of what it has to offer.,8,Q49
+049-09,"I'm very satisfied with my life, with only minor things I'd wish were different.",9,Q49
+049-10,"I feel completely fulfilled, grateful for every aspect of my life as it is.",10,Q49
+050-01,I am completely dissatisfied with the financial situation of our household.,1,Q50
+050-02,I am very dissatisfied with the financial situation of our household.,2,Q50
+050-03,I am quite dissatisfied with the financial situation of our household.,3,Q50
+050-04,I am somewhat dissatisfied with the financial situation of our household.,4,Q50
+050-05,I am neither satisfied nor dissatisfied with the financial situation of our household.,5,Q50
+050-06,I am somewhat satisfied with the financial situation of our household.,6,Q50
+050-07,I am quite satisfied with the financial situation of our household.,7,Q50
+050-08,I am fairly satisfied with the financial situation of our household.,8,Q50
+050-09,I am very satisfied with the financial situation of our household.,9,Q50
+050-10,I am completely satisfied with the financial situation of our household.,10,Q50
+051-01,"With my family, I have often gone without enough food to eat.",1,Q51
+051-02,"With my family, I have sometimes gone without enough food to eat.",2,Q51
+051-03,"With my family, I have rarely gone without enough food to eat.",3,Q51
+051-04,"With my family, I have never gone without enough food to eat.",4,Q51
+052-01,"With my family, I have often felt unsafe from crime in my home.",1,Q52
+052-02,"With my family, I have sometimes felt unsafe from crime in my home.",2,Q52
+052-03,"With my family, I have rarely felt unsafe from crime in my home.",3,Q52
+052-04,"With my family, I have never felt unsafe from crime in my home.",4,Q52
+053-01,"Often, my family and I have gone without medicine or medical treatment that we needed.",1,Q53
+053-02,"Sometimes, my family and I have gone without medicine or medical treatment that we needed.",2,Q53
+053-03,Rarely have my family and I gone without medicine or medical treatment that we needed.,3,Q53
+053-04,My family and I have never gone without medicine or medical treatment that we needed.,4,Q53
+054-01,"Often, with my family, I have gone without a cash income.",1,Q54
+054-02,"Sometimes, with my family, I have gone without a cash income.",2,Q54
+054-03,"Rarely, with my family, I have gone without a cash income.",3,Q54
+054-04,"Never, with my family, I have gone without a cash income.",4,Q54
+055-01,Often I have gone without a safe shelter over my head with my family.,1,Q55
+055-02,Sometimes I have gone without a safe shelter over my head with my family.,2,Q55
+055-03,Rarely have I gone without a safe shelter over my head with my family.,3,Q55
+055-04,Never have I gone without a safe shelter over my head with my family.,4,Q55
+058-01,I trust my family completely.,1,Q58
+058-02,I somewhat trust my family.,2,Q58
+058-03,I do not trust my family very much.,3,Q58
+058-04,I do not trust my family at all.,4,Q58
+059-01,I trust my neighborhood completely.,1,Q59
+059-02,I trust my neighborhood somewhat.,2,Q59
+059-03,I do not trust my neighborhood very much.,3,Q59
+059-04,I do not trust my neighborhood at all.,4,Q59
+060-01,I trust completely the people I know personally.,1,Q60
+060-02,I somewhat trust the people I know personally.,2,Q60
+060-03,I do not trust very much the people I know personally.,3,Q60
+060-04,I do not trust at all the people I know personally.,4,Q60
+061-01,I trust completely the people I meet for the first time.,1,Q61
+061-02,I trust somewhat the people I meet for the first time.,2,Q61
+061-03,I do not trust very much the people I meet for the first time.,3,Q61
+061-04,I do not trust at all the people I meet for the first time.,4,Q61
+062-01,I trust completely the people of another religion.,1,Q62
+062-02,I trust somewhat the people of another religion.,2,Q62
+062-03,I do not trust very much the people of another religion.,3,Q62
+062-04,I do not trust at all the people of another religion.,4,Q62
+063-01,I trust completely the people of another nationality.,1,Q63
+063-02,I trust somewhat the people of another nationality.,2,Q63
+063-03,I do not trust very much the people of another nationality.,3,Q63
+063-04,I do not trust at all the people of another nationality.,4,Q63
+064-01,I have a great deal of confidence in the churches.,1,Q64
+064-02,I have quite a lot of confidence in the churches.,2,Q64
+064-03,I don't have very much confidence in the churches.,3,Q64
+064-04,I have no confidence in the churches at all.,4,Q64
+065-01,I have a great deal of confidence in the armed forces.,1,Q65
+065-02,I have quite a lot of confidence in the armed forces.,2,Q65
+065-03,I don't have very much confidence in the armed forces.,3,Q65
+065-04,I have no confidence in the armed forces at all.,4,Q65
+066-01,I have a great deal of confidence in the press.,1,Q66
+066-02,I have quite a lot of confidence in the press.,2,Q66
+066-03,I don't have very much confidence in the press.,3,Q66
+066-04,I have no confidence in the press at all.,4,Q66
+067-01,I have a great deal of confidence in television.,1,Q67
+067-02,I have quite a lot of confidence in television.,2,Q67
+067-03,I don't have very much confidence in television.,3,Q67
+067-04,I have no confidence in television at all.,4,Q67
+068-01,I have a great deal of confidence in labor unions.,1,Q68
+068-02,I have quite a lot of confidence in labor unions.,2,Q68
+068-03,I don't have very much confidence in labor unions.,3,Q68
+068-04,I have no confidence in labor unions at all.,4,Q68
+069-01,I have a great deal of confidence in the police.,1,Q69
+069-02,I have quite a lot of confidence in the police.,2,Q69
+069-03,I don't have very much confidence in the police.,3,Q69
+069-04,I have no confidence in the police at all.,4,Q69
+070-01,I have a great deal of confidence in the courts.,1,Q70
+070-02,I have quite a lot of confidence in the courts.,2,Q70
+070-03,I don't have very much confidence in the courts.,3,Q70
+070-04,I have no confidence in the courts at all.,4,Q70
+071-01,I have a great deal of confidence in the government.,1,Q71
+071-02,I have quite a lot of confidence in the government.,2,Q71
+071-03,I don't have very much confidence in the government.,3,Q71
+071-04,I have no confidence in the government at all.,4,Q71
+072-01,I have a great deal of confidence in the political parties.,1,Q72
+072-02,I have quite a lot of confidence in the political parties.,2,Q72
+072-03,I don't have very much confidence in the political parties.,3,Q72
+072-04,I have no confidence in the political parties at all.,4,Q72
+073-01,I have a great deal of confidence in the parliament.,1,Q73
+073-02,I have quite a lot of confidence in the parliament.,2,Q73
+073-03,I don't have very much confidence in the parliament.,3,Q73
+073-04,I have no confidence in the parliament at all.,4,Q73
+074-01,I have a great deal of confidence in the civil service.,1,Q74
+074-02,I have quite a lot of confidence in the civil service.,2,Q74
+074-03,I don't have very much confidence in the civil service.,3,Q74
+074-04,I have no confidence in the civil service at all.,4,Q74
+075-01,I have a great deal of confidence in universities.,1,Q75
+075-02,I have quite a lot of confidence in universities.,2,Q75
+075-03,I don't have very much confidence in universities.,3,Q75
+075-04,I have no confidence in universities at all.,4,Q75
+076-01,I have a great deal of confidence in elections.,1,Q76
+076-02,I have quite a lot of confidence in elections.,2,Q76
+076-03,I don't have very much confidence in elections.,3,Q76
+076-04,I have no confidence in elections at all.,4,Q76
+077-01,I have a great deal of confidence in major companies.,1,Q77
+077-02,I have quite a lot of confidence in major companies.,2,Q77
+077-03,I don't have very much confidence in major companies.,3,Q77
+077-04,I have no confidence in major companies at all.,4,Q77
+078-01,I have a great deal of confidence in banks.,1,Q78
+078-02,I have quite a lot of confidence in banks.,2,Q78
+078-03,I don't have very much confidence in banks.,3,Q78
+078-04,I have no confidence in banks at all.,4,Q78
+079-01,I have a great deal of confidence in environmental organizations.,1,Q79
+079-02,I have quite a lot of confidence in environmental organizations.,2,Q79
+079-03,I do not have very much confidence in environmental organizations.,3,Q79
+079-04,I have no confidence in environmental organizations at all.,4,Q79
+080-01,I have a great deal of confidence in women's organizations.,1,Q80
+080-02,I have quite a lot of confidence in women's organizations.,2,Q80
+080-03,I do not have very much confidence in women's organizations.,3,Q80
+080-04,I have no confidence in women's organizations at all.,4,Q80
+081-01,I have a great deal of confidence in charitable or humanitarian organizations.,1,Q81
+081-02,I have quite a lot of confidence in charitable or humanitarian organizations.,2,Q81
+081-03,I do not have very much confidence in charitable or humanitarian organizations.,3,Q81
+081-04,I have no confidence at all in charitable or humanitarian organizations.,4,Q81
+090-01,"International organizations must prioritize effectiveness above all else, even at the cost of democratic processes.",1,Q90
+090-02,"International organizations should be primarily driven by outcomes, with democratic considerations playing only a minor role.",2,Q90
+090-03,"International organizations should lean toward effectiveness, though some degree of democratic input is worth maintaining.",3,Q90
+090-04,"International organizations should focus more on effective results, while still giving meaningful weight to democratic principles.",4,Q90
+090-05,"International organizations should balance effectiveness and democracy, but lean slightly toward tangible outcomes when forced to choose.",5,Q90
+090-06,"International organizations should balance effectiveness and democracy, but lean slightly toward democratic accountability when forced to choose.",6,Q90
+090-07,"International organizations should generally respect democratic principles, though effectiveness should not be entirely sacrificed.",7,Q90
+090-08,"International organizations should be primarily guided by democratic values, even if this sometimes limits their effectiveness.",8,Q90
+090-09,"International organizations should firmly uphold democratic standards, accepting reduced effectiveness as a necessary trade-off.",9,Q90
+090-10,"International organizations must be fully democratic in their decision-making, regardless of the impact on their effectiveness.",10,Q90
+106-01,Incomes must be equalized: a fair society cannot allow wealth gaps to determine people's outcomes.,1,Q106
+106-02,"Strong income redistribution is essential, though small performance incentives may have a limited role.",2,Q106
+106-03,"Equalizing incomes should be the priority, even if it means moderately reducing rewards for individual effort.",3,Q106
+106-04,"I lean toward income equality, but I recognize that some incentives for effort are worth preserving.",4,Q106
+106-05,"Income equality and individual incentives are both valid goals, and policy should carefully balance the two.",5,Q106
+106-06,"Individual effort deserves reward, though some degree of income leveling remains socially important.",6,Q106
+106-07,"Incentives for personal effort should take precedence, with only a modest safety net to limit extreme inequality.",7,Q106
+106-08,"Greater rewards for individual effort are key to prosperity, and income redistribution should be kept minimal.",8,Q106
+106-09,People should largely keep what they earn: strong incentives for effort matter far more than equal outcomes.,9,Q106
+106-10,Incomes should reflect individual effort entirely: redistributing them undermines the drive that benefits everyone.,10,Q106
+107-01,Private enterprise must be fully unleashed from government interference to drive prosperity.,1,Q107
+107-02,"Business should remain predominantly in private hands, with only minimal state involvement.",2,Q107
+107-03,"The private sector should lead the economy, though limited public ownership may have a role in specific areas.",3,Q107
+107-04,"Private ownership should be the default, but some industries may warrant a degree of government stake.",4,Q107
+107-05,"A balance between private and public ownership is acceptable, with a slight preference for market-driven solutions.",5,Q107
+107-06,"Public and private ownership can coexist, though certain strategic sectors may benefit from greater state involvement.",6,Q107
+107-07,"Government should take a more active ownership role in key industries, while leaving most others to private enterprise.",7,Q107
+107-08,Expanding public ownership across major industries would better serve the common good than private control.,8,Q107
+107-09,Most significant industries should be brought under government ownership to ensure they serve public interests.,9,Q107
+107-10,Full public ownership of business and industry is necessary to put economic power in the hands of society.,10,Q107
+108-01,"The government bears full responsibility for ensuring every citizen's basic needs are met, and individuals should not have to worry about providing for themselves.",1,Q108
+108-02,"The government should take the lead in providing for people, though individuals can play a small supporting role in their own welfare.",2,Q108
+108-03,"Government has a strong duty to provide for citizens, even if people can contribute somewhat to their own situation.",3,Q108
+108-04,"While personal effort matters, the government should still shoulder most of the responsibility for people's well-being.",4,Q108
+108-05,Government and individuals share roughly equal responsibility for ensuring people are provided for.,5,Q108
+108-06,"Personal responsibility is somewhat more important than government support, though a meaningful safety net should remain.",6,Q108
+108-07,"People should largely take care of themselves, with government stepping in only for those who genuinely cannot.",7,Q108
+108-08,"Individuals bear most of the responsibility for their own provision, and government's role should be limited and targeted.",8,Q108
+108-09,"Personal responsibility is paramount, and government involvement in providing for people should be minimal.",9,Q108
+108-10,"Individuals are entirely responsible for providing for themselves, and it is not the government's role to ensure people's welfare.",10,Q108
+109-01,"Competition is fundamentally good and drives progress, innovation, and the best outcomes for everyone.",1,Q109
+109-02,"Competition is mostly beneficial, with only minor downsides that are far outweighed by its positive effects.",2,Q109
+109-03,"Competition generally does more good than harm, even if it creates some friction along the way.",3,Q109
+109-04,"The benefits of competition slightly outweigh its drawbacks, making it a net positive on balance.",4,Q109
+109-05,"Competition has roughly equal upsides and downsides, and its value depends heavily on the context.",5,Q109
+109-06,"The downsides of competition slightly outweigh its benefits, though it can still be useful in some areas.",6,Q109
+109-07,"Competition tends to do more harm than good, fostering stress and inequality more than genuine progress.",7,Q109
+109-08,"Competition is mostly harmful, benefiting only a few while placing undue burden on the majority.",8,Q109
+109-09,"Competition is nearly always damaging, undermining cooperation and well-being in almost every context.",9,Q109
+109-10,Competition is fundamentally harmful and should be replaced by systems built on cooperation and mutual support.,10,Q109
+110-01,"Hard work is the surest path to a better life, and those who put in the effort will almost always reap the rewards.",1,Q110
+110-02,"Hard work is the primary driver of success, even if luck and connections play a minor role on occasion.",2,Q110
+110-03,"Sustained effort usually leads to a better life, though luck and connections can sometimes tip the scales.",3,Q110
+110-04,"Hard work matters more than luck or connections, but external factors do influence outcomes more than we'd like to admit.",4,Q110
+110-05,Hard work and luck or connections contribute about equally to success in life.,5,Q110
+110-06,Luck and connections play a somewhat larger role than hard work in determining how life turns out.,6,Q110
+110-07,"Success depends more on luck and connections than on effort, even though hard work is not entirely irrelevant.",7,Q110
+110-08,Hard work alone rarely leads to success (who you know and fortunate circumstances matter considerably more).,8,Q110
+110-09,"Success is mostly a matter of luck and connections, and hard work has little bearing on how life turns out for most people.",9,Q110
+110-10,"Hard work has almost nothing to do with success, as life outcomes are determined almost entirely by luck and the connections you're born into.",10,Q110
+112-01,Corruption is virtually unheard of here; people simply don't need to bribe or pull strings to get things done.,1,Q112
+112-02,"Corruption exists in isolated cases, but it's the exception rather than the norm in how things get done.",2,Q112
+112-03,"Occasionally, I hear of people using gifts or favors to move things along, though most dealings remain above board.",3,Q112
+112-04,"Corruption surfaces here and there, and while it's not expected, it sometimes feels like a shortcut people quietly rely on.",4,Q112
+112-05,"Bribes and favors are common enough that I'm not surprised when they come up, yet plenty of things still get done without them.",5,Q112
+112-06,"It's increasingly hard to get certain things done without greasing the right wheels, and most people know it.",6,Q112
+112-07,Corruption is widespread enough that going through unofficial channels often feels more reliable than official ones.,7,Q112
+112-08,"Bribes, gifts, and favors are a routine part of navigating daily life here: expected, not exceptional.",8,Q112
+112-09,Almost nothing gets done without some form of payment or personal favor; the system practically runs on it.,9,Q112
+112-10,Corruption is so deeply embedded in every layer of society that legitimate channels feel almost pointless to use.,10,Q112
+113-01,I believe none of the state authorities are involved in corruption.,1,Q113
+113-02,I believe a few of the state authorities are involved in corruption.,2,Q113
+113-03,I believe most of the state authorities are involved in corruption.,3,Q113
+113-04,I believe all of the state authorities are involved in corruption.,4,Q113
+114-01,I believe none of the business executives are involved in corruption.,1,Q114
+114-02,I believe few business executives are involved in corruption.,2,Q114
+114-03,I believe most business executives are involved in corruption.,3,Q114
+114-04,I believe all business executives are involved in corruption.,4,Q114
+115-01,I don't believe any local authorities are involved in corruption.,1,Q115
+115-02,I believe a few local authorities are involved in corruption.,2,Q115
+115-03,I believe most local authorities are involved in corruption.,3,Q115
+115-04,I believe all local authorities are involved in corruption.,4,Q115
+116-01,"I believe none of the civil servants, police officers, judges, doctors, or teachers are involved in corruption.",1,Q116
+116-02,"I believe a few civil servants, police officers, judges, doctors, or teachers are involved in corruption.",2,Q116
+116-03,"I believe most civil servants, police officers, judges, doctors, or teachers are involved in corruption.",3,Q116
+116-04,"I believe all civil servants, police officers, judges, doctors, or teachers are involved in corruption.",4,Q116
+117-01,I don't believe any journalists or media figures are involved in corruption.,1,Q117
+117-02,I believe a few journalists and media figures are involved in corruption.,2,Q117
+117-03,I believe most journalists and media figures are involved in corruption.,3,Q117
+117-04,I believe all journalists and media figures are involved in corruption.,4,Q117
+118-01,"I have never had to pay a bribe, give a gift, or do a favor to get the services I need.",1,Q118
+118-02,"In my experience, bribes or favors are only rarely required to access services in my neighbourhood.",2,Q118
+118-03,It is frustrating how frequently people around me have to pay bribes or do favors just to get basic services.,3,Q118
+118-04,"In my neighbourhood, you simply always have to pay a bribe or pull a favour if you want to get anything done.",4,Q118
+119-01,Women are definitively less corrupt than men.,1,Q119
+119-02,Women tend to be less corrupt than men.,2,Q119
+119-03,Women are not particularly less corrupt than men.,3,Q119
+119-04,Women are no less corrupt than men.,4,Q119
+120-01,There is absolutely no risk of being held accountable for bribery or exchanging favors for public services in this country.,1,Q120
+120-02,The risk of facing consequences for bribery or favor exchanges in the public sector is negligible here.,2,Q120
+120-03,Being held accountable for bribery or gifts in exchange for public services carries only a slight risk in this country.,3,Q120
+120-04,There is a low but non-trivial chance of facing accountability for bribery or favor exchanges in the public sector here.,4,Q120
+120-05,The risk of being held accountable for bribery or exchanging favors for public services is moderate in this country.,5,Q120
+120-06,There is a fair chance of facing consequences for bribery or gift exchanges in the public sector in this country.,6,Q120
+120-07,The risk of being held accountable for bribery or favors in exchange for public services is notably significant here.,7,Q120
+120-08,Being caught and held accountable for bribery or favor exchanges in the public sector carries a high risk in this country.,8,Q120
+120-09,The risk of facing accountability for bribery or gifts in exchange for public services is very high in this country.,9,Q120
+120-10,Being held accountable for bribery or exchanging favors for public services is virtually certain in this country.,10,Q120
+121-01,The impact of immigrant on the development of my country has been very good.,1,Q121
+121-02,The impact of immigrant on the development of my country has been quite good.,2,Q121
+121-03,"The impact of immigrant on the development of my country has been neither good, nor bad.",3,Q121
+121-04,The impact of immigrant on the development of my country has been quite bad.,4,Q121
+121-05,The impact of immigrant on the development of my country has been very bad.,5,Q121
+130-01,The government should allow anyone from any country who wishes to come here to work to do so freely.,1,Q130
+130-02,The government should allow people from other countries to come here to work as long as there are jobs available for them.,2,Q130
+130-03,The government should place strict limits on the number of people from other countries who are allowed to come here to work.,3,Q130
+130-04,The government should prohibit people from other countries from coming here to work.,4,Q130
+131-01,I feel very secure these days.,1,Q131
+131-02,I feel quite secure these days.,2,Q131
+131-03,I don't feel very secure these days.,3,Q131
+131-04,I don't feel secure at all these days.,4,Q131
+132-01,"In my neighborhood, robberies are happening very frequently.",1,Q132
+132-02,"In my neighborhood, robberies are happening quite frequently.",2,Q132
+132-03,"In my neighborhood, robberies are not happening frequently.",3,Q132
+132-04,"In my neighborhood, robberies are not happening frequently at all.",4,Q132
+133-01,"In my neighborhood, alcohol consumption in the streets is happening very frequently.",1,Q133
+133-02,"In my neighborhood, alcohol consumption in the streets is happening quite frequently.",2,Q133
+133-03,"In my neighborhood, alcohol consumption in the streets is not happening frequently.",3,Q133
+133-04,"In my neighborhood, alcohol consumption in the streets is not happening frequently at all.",4,Q133
+134-01,"In my neighborhood, police or military interference with people's private life is happening very frequently.",1,Q134
+134-02,"In my neighborhood, police or military interference with people's private life is happening quite frequently.",2,Q134
+134-03,"In my neighborhood, police or military interference with people's private life is not happening frequently.",3,Q134
+134-04,"In my neighborhood, police or military interference with people's private life is not happening frequently at all.",4,Q134
+135-01,"In my neighborhood, racist behavior is happening very frequently.",1,Q135
+135-02,"In my neighborhood, racist behavior is happening quite frequently.",2,Q135
+135-03,"In my neighborhood, racist behavior is not happening frequently.",3,Q135
+135-04,"In my neighborhood, racist behavior is not happening at all frequently.",4,Q135
+136-01,"In my neighborhood, drug sales in streets are happening very frequently.",1,Q136
+136-02,"In my neighborhood, drug sales in streets are happening quite frequently.",2,Q136
+136-03,"In my neighborhood, drug sales in streets are not happening frequently.",3,Q136
+136-04,"In my neighborhood, drug sales in streets are not happening at all frequently.",4,Q136
+137-01,"In my neighborhood, street violence and fights are happening very frequently.",1,Q137
+137-02,"In my neighborhood, street violence and fights are happening quite frequently.",2,Q137
+137-03,"In my neighborhood, street violence and fights are not happening frequently.",3,Q137
+137-04,"In my neighborhood, street violence and fights are not happening at all frequently.",4,Q137
+138-01,"In my neighborhood, sexual harassment is happening very frequently.",1,Q138
+138-02,"In my neighborhood, sexual harassment is happening quite frequently.",2,Q138
+138-03,"In my neighborhood, sexual harassment is happening not very frequently.",3,Q138
+138-04,"In my neighborhood, sexual harassment is not happening frequently at all.",4,Q138
+142-01,I am very much worried about losing my job or not finding one.,1,Q142
+142-02,I am worried a good deal about losing my job or not finding one.,2,Q142
+142-03,I am not much worried about losing my job or not finding one.,3,Q142
+142-04,I am not at all worried about losing my job or not finding one.,4,Q142
+143-01,I very much worry about not being able to give my children a good education.,1,Q143
+143-02,I worry quite a bit about not being able to give my children a good education.,2,Q143
+143-03,I don't really worry about not being able to give my children a good education.,3,Q143
+143-04,I don't worry about not being able to give my children a good education at all.,4,Q143
+146-01,I very much worry about a war involving my country.,1,Q146
+146-02,I worry a good deal about a war involving my country.,2,Q146
+146-03,I don't worry much about a war involving my country.,3,Q146
+146-04,I don't worry at all about a war involving my country.,4,Q146
+147-01,I am very much worried about a terrorist attack.,1,Q147
+147-02,I worry a good deal about a terrorist attack.,2,Q147
+147-03,I am not that worried about a terrorist attack.,3,Q147
+147-04,I am not at all worried about a terrorist attack.,4,Q147
+148-01,I am very worried about a civil war.,1,Q148
+148-02,I am quite worried about a civil war.,2,Q148
+148-03,I am not very worried about a civil war.,3,Q148
+148-04,I am not worried at all about a civil war.,4,Q148
+158-01,"Science and technology are actively destroying our health, overcomplicating our lives, and making us less comfortable.",1,Q158
+158-02,"Science and technology are doing far more harm than good to our health, daily lives, and overall comfort.",2,Q158
+158-03,"Science and technology are, on balance, making our lives harder and less healthy rather than improving them.",3,Q158
+158-04,"Science and technology have brought some benefits, but they've also made our lives more complicated and less healthy in many ways.",4,Q158
+158-05,"Science and technology are making some aspects of our lives easier and more comfortable, but not necessarily healthier.",5,Q158
+158-06,"Science and technology are generally improving our lives, though the gains in health, ease, and comfort are uneven.",6,Q158
+158-07,"Science and technology are making our lives easier and more comfortable, even if the health benefits aren't always clear-cut.",7,Q158
+158-08,"Science and technology are largely making our lives healthier, easier, and more comfortable, with a few exceptions.",8,Q158
+158-09,"Science and technology are making our lives healthier, easier, and more comfortable in almost every way.",9,Q158
+158-10,"Science and technology are undeniably making our lives healthier, easier, and more comfortable across the board.",10,Q158
+159-01,"Science and technology will only create more problems for the next generation, not opportunities.",1,Q159
+159-02,"Despite some advances, science and technology are unlikely to meaningfully expand opportunities for the next generation.",2,Q159
+159-03,"Science and technology may generate some opportunities for the next generation, but I wouldn't count on it.",3,Q159
+159-04,"Science and technology might create a few more opportunities for the next generation, though I have my doubts.",4,Q159
+159-05,"Science and technology could bring more opportunities for the next generation, but it's hard to say either way.",5,Q159
+159-06,"Science and technology will probably open up more opportunities for the next generation, even if not equally for everyone.",6,Q159
+159-07,"Science and technology are likely to create more opportunities for the next generation, though progress won't be without challenges.",7,Q159
+159-08,Science and technology will bring more opportunities for the next generation in most areas of life.,8,Q159
+159-09,Science and technology will clearly generate significantly more opportunities for the next generation.,9,Q159
+159-10,"Because of science and technology, the next generation will undoubtedly have far more opportunities than ever before.",10,Q159
+160-01,"Science and faith are perfectly balanced in our society, and I see no reason to prioritize one over the other.",1,Q160
+160-02,"While I value both, I think science and faith are roughly in the right proportion, with only minor room for more spiritual grounding.",2,Q160
+160-03,"I can see a slight case for leaning a bit more on faith, though I don't think our reliance on science is truly excessive.",3,Q160
+160-04,"Science has its limits, and I sometimes feel we could afford to place a little more trust in faith.",4,Q160
+160-05,"I think we rely on science and faith in roughly equal measure, though perhaps faith deserves just a bit more weight.",5,Q160
+160-06,"We do lean a bit heavily on science, and I feel faith could play a larger role in how we navigate life.",6,Q160
+160-07,"Our dependence on science often comes at the expense of faith, and I think that imbalance is worth addressing.",7,Q160
+160-08,I strongly feel that science has overshadowed faith in ways that leave something important missing from our lives.,8,Q160
+160-09,We have grown far too dependent on science and have largely abandoned the faith that once gave life deeper meaning.,9,Q160
+160-10,"Science has completely displaced faith in our society, and I believe this is a profound and damaging mistake.",10,Q160
+161-01,"Science has nothing to do with eroding moral values (if anything, it strengthens them).",1,Q161
+161-02,I strongly doubt that science is responsible for weakening people's sense of right and wrong.,2,Q161
+161-03,It seems unlikely to me that science plays a meaningful role in undermining moral values.,3,Q161
+161-04,I'm not convinced that science does much to weaken people's ideas of right and wrong.,4,Q161
+161-05,"Science may have some influence on moral thinking, but I wouldn't call it a bad effect.",5,Q161
+161-06,"Science can subtly shift moral thinking, though whether that's harmful is debatable.",6,Q161
+161-07,"I think science does tend to complicate people's sense of right and wrong, to some degree.",7,Q161
+161-08,Science fairly often undermines the moral frameworks people rely on.,8,Q161
+161-09,It's hard to deny that science significantly erodes people's sense of right and wrong.,9,Q161
+161-10,"Science absolutely breaks down people's ideas of right and wrong, and that is one of its most damaging effects.",10,Q161
+162-01,Science is absolutely central to how I understand and navigate my daily life.,1,Q162
+162-02,Science plays a very important role in my everyday life.,2,Q162
+162-03,I find science quite relevant and useful in my day-to-day life.,3,Q162
+162-04,"Science is somewhat relevant to my daily life, even if I don't always realize it.",4,Q162
+162-05,I'm not sure how much science really matters in my daily life.,5,Q162
+162-06,"Science comes up in my daily life occasionally, but it's not something I think much about.",6,Q162
+162-07,I don't find science particularly important for getting through my daily life.,7,Q162
+162-08,Science rarely feels relevant or necessary in my everyday life.,8,Q162
+162-09,I almost never feel the need to think about science in my daily life.,9,Q162
+162-10,Science is completely irrelevant to my daily life.,10,Q162
+163-01,Science and technology have made the world a great deal worse off.,1,Q163
+163-02,"On balance, science and technology have done more harm than good to the world.",2,Q163
+163-03,The world is somewhat worse off because of science and technology.,3,Q163
+163-04,Science and technology have left the world slightly worse off than it would otherwise be.,4,Q163
+163-05,It's hard to say whether science and technology have made the world better or worse off.,5,Q163
+163-06,"All things considered, science and technology have made the world marginally better off.",6,Q163
+163-07,The world is somewhat better off because of science and technology.,7,Q163
+163-08,"Science and technology have done more good than harm to the world, on balance.",8,Q163
+163-09,The world is considerably better off thanks to science and technology.,9,Q163
+163-10,Science and technology have made the world a great deal better off.,10,Q163
+164-01,God plays absolutely no role in my life.,1,Q164
+164-02,God is barely a passing thought in my life.,2,Q164
+164-03,"God occasionally crosses my mind, but doesn't really shape my life.",3,Q164
+164-04,"God holds a minor place in my life, though not a central one.",4,Q164
+164-05,"God matters to me somewhat, but isn't a defining part of my life.",5,Q164
+164-06,"God has a noticeable presence in my life, though not a dominant one.",6,Q164
+164-07,God is fairly important to me and influences some of my choices.,7,Q164
+164-08,God plays a significant role in how I live my life.,8,Q164
+164-09,God is deeply important to me and guides most of what I do.,9,Q164
+164-10,God is at the very center of my life and everything I do.,10,Q164
+169-01,"Whenever science and religion conflict, religion is invariably and unquestionably right.",1,Q169
+169-02,"Whenever science and religion conflict, religion is generally right.",2,Q169
+169-03,"Whenever science and religion conflict, religion is not always right.",3,Q169
+169-04,"Whenever science and religion conflict, religion is never right.",4,Q169
+170-01,"The only acceptable religion is absolutely my religion, and no other can compare.",1,Q170
+170-02,I believe the only acceptable religion is my religion.,2,Q170
+170-03,I don't think my religion is the only acceptable one.,3,Q170
+170-04,"My religion is definitely not the only acceptable religion, and all faiths deserve equal respect.",4,Q170
+171-01,"I attend religious services several times a week, not counting weddings and funerals.",1,Q171
+171-02,"I go to religious services about once a week, apart from weddings and funerals.",2,Q171
+171-03,"Outside of weddings and funerals, I attend religious services roughly once a month.",3,Q171
+171-04,"Besides weddings and funerals, I only go to religious services on special holy days.",4,Q171
+171-05,"Apart from weddings and funerals, I attend religious services about once a year.",5,Q171
+171-06,"I go to religious services less than once a year, not counting weddings and funerals.",6,Q171
+171-07,"Apart from weddings and funerals, I practically never attend religious services.",7,Q171
+172-01,"I pray multiple times a day, every day.",1,Q172
+172-02,"I pray once a day, every day.",2,Q172
+172-03,I pray a few times a week.,3,Q172
+172-04,I only pray when I attend religious services.,4,Q172
+172-05,I only pray on special holy days.,5,Q172
+172-06,I pray about once a year.,6,Q172
+172-07,I pray less than once a year.,7,Q172
+172-08,I never pray.,8,Q172
+177-01,Claiming government benefits to which you are not entitled is never justifiable under any circumstances.,1,Q177
+177-02,"Claiming government benefits to which you are not entitled is almost never justifiable, with very rare exceptions.",2,Q177
+177-03,"Claiming government benefits to which you are not entitled is rarely justifiable, though some extreme situations might warrant it.",3,Q177
+177-04,"Claiming government benefits to which you are not entitled is generally not justifiable, but there are cases where it could be understood.",4,Q177
+177-05,"Claiming government benefits to which you are not entitled is sometimes justifiable and sometimes not, depending on the situation.",5,Q177
+177-06,"Claiming government benefits to which you are not entitled can often be justifiable, depending on the circumstances.",6,Q177
+177-07,"Claiming government benefits to which you are not entitled is more often justifiable than not, in many situations.",7,Q177
+177-08,Claiming government benefits to which you are not entitled is largely justifiable in most circumstances.,8,Q177
+177-09,"Claiming government benefits to which you are not entitled is almost always justifiable, with very few exceptions.",9,Q177
+177-10,"Claiming government benefits to which you are not entitled is always justifiable, regardless of the circumstances.",10,Q177
+178-01,Avoiding a fare on public transport is never justifiable under any circumstances.,1,Q178
+178-02,"Avoiding a fare on public transport is almost never justifiable, only in the most extreme and rare situations.",2,Q178
+178-03,"Avoiding a fare on public transport is rarely justifiable, though exceptional cases may exist.",3,Q178
+178-04,"Avoiding a fare on public transport is generally not justifiable, but there are some understandable exceptions.",4,Q178
+178-05,"Avoiding a fare on public transport is sometimes justifiable, depending on the circumstances.",5,Q178
+178-06,Avoiding a fare on public transport can be justifiable in a fair number of situations.,6,Q178
+178-07,"Avoiding a fare on public transport is often justifiable, especially given the right context.",7,Q178
+178-08,Avoiding a fare on public transport is justifiable in most situations.,8,Q178
+178-09,Avoiding a fare on public transport is almost always justifiable.,9,Q178
+178-10,"Avoiding a fare on public transport is always justifiable, no matter the circumstances.",10,Q178
+179-01,Stealing property is never justifiable under any circumstances.,1,Q179
+179-02,"Stealing property is almost never justifiable, with only the rarest of exceptions.",2,Q179
+179-03,"Stealing property is rarely justifiable, though extreme situations may warrant it.",3,Q179
+179-04,"Stealing property is generally not justifiable, but certain contexts could make it understandable.",4,Q179
+179-05,"Stealing property can be justifiable or not, depending heavily on the circumstances.",5,Q179
+179-06,Stealing property is somewhat justifiable in many situations where need outweighs ownership.,6,Q179
+179-07,Stealing property is often justifiable when the reasons behind it are strong enough.,7,Q179
+179-08,"Stealing property is largely justifiable, as necessity and fairness can override ownership.",8,Q179
+179-09,Stealing property is almost always justifiable given the broader social and moral context.,9,Q179
+179-10,"Stealing property is always justifiable, as access to resources outweighs the concept of ownership.",10,Q179
+180-01,"Cheating on taxes is never justifiable, regardless of the opportunity.",1,Q180
+180-02,"Cheating on taxes is almost never justifiable, even when the chance arises.",2,Q180
+180-03,"Cheating on taxes is rarely justifiable, though I can imagine very exceptional cases.",3,Q180
+180-04,"Cheating on taxes is generally not justifiable, but circumstances can sometimes complicate the matter.",4,Q180
+180-05,"Cheating on taxes is as hard to justify as it is to condemn, depending on the situation.",5,Q180
+180-06,Cheating on taxes can be somewhat justifiable when the opportunity and circumstances align.,6,Q180
+180-07,Cheating on taxes is often justifiable if the chance presents itself.,7,Q180
+180-08,Cheating on taxes is usually justifiable when you have the opportunity.,8,Q180
+180-09,Cheating on taxes is almost always justifiable if you can get away with it.,9,Q180
+180-10,Cheating on taxes is always justifiable whenever you have the chance.,10,Q180
+181-01,Accepting a bribe in the course of one's duties is never justifiable under any circumstances.,1,Q181
+181-02,"Accepting a bribe in the course of one's duties is almost never justifiable, with virtually no exceptions.",2,Q181
+181-03,"Accepting a bribe in the course of one's duties is rarely justifiable, only in the most extreme edge cases.",3,Q181
+181-04,"Accepting a bribe in the course of one's duties is generally not justifiable, though some uncommon situations might warrant it.",4,Q181
+181-05,"Accepting a bribe in the course of one's duties can sometimes be justifiable, depending on the context.",5,Q181
+181-06,"Accepting a bribe in the course of one's duties is more often justifiable than not, given the right circumstances.",6,Q181
+181-07,"Accepting a bribe in the course of one's duties is usually justifiable, except in a few specific cases.",7,Q181
+181-08,Accepting a bribe in the course of one's duties is justifiable in most situations.,8,Q181
+181-09,"Accepting a bribe in the course of one's duties is almost always justifiable, with very few exceptions.",9,Q181
+181-10,"Accepting a bribe in the course of one's duties is always justifiable, no matter the situation.",10,Q181
+182-01,Homosexuality is never justifiable under any circumstances.,1,Q182
+182-02,"Homosexuality is almost never justifiable, with only the rarest of exceptions.",2,Q182
+182-03,"Homosexuality is rarely justifiable, and generally something I oppose.",3,Q182
+182-04,"Homosexuality is difficult to justify, though I acknowledge some may see it differently.",4,Q182
+182-05,"Homosexuality may or may not be justifiable, I don't have a strong stance either way.",5,Q182
+182-06,"Homosexuality is justifiable in more cases than not, though I still have some reservations.",6,Q182
+182-07,"Homosexuality is generally justifiable, even if I'm not entirely without reservations.",7,Q182
+182-08,"Homosexuality is justifiable in most circumstances, with very few exceptions.",8,Q182
+182-09,"Homosexuality is almost always justifiable, with barely any reservations on my part.",9,Q182
+182-10,"Homosexuality is always justifiable, without exception.",10,Q182
+183-01,Prostitution is never justifiable under any circumstances.,1,Q183
+183-02,"Prostitution is almost never justifiable, with only the rarest of exceptions.",2,Q183
+183-03,"Prostitution is generally not justifiable, though a few edge cases may warrant consideration.",3,Q183
+183-04,"Prostitution is more often unjustifiable than not, but some situations complicate the issue.",4,Q183
+183-05,Prostitution can be justifiable or not depending on the specific context and conditions.,5,Q183
+183-06,"Prostitution is justifiable in more cases than not, given the right circumstances.",6,Q183
+183-07,"Prostitution is largely justifiable, though certain conditions still give me some pause.",7,Q183
+183-08,"Prostitution is justifiable in most cases, with only a few notable exceptions.",8,Q183
+183-09,"Prostitution is almost always justifiable, with very few situations warranting objection.",9,Q183
+183-10,Prostitution is always justifiable and should be treated as a personal right.,10,Q183
+184-01,Abortion is never justifiable under any circumstances.,1,Q184
+184-02,"Abortion is almost never justifiable, except perhaps in the most extreme life-threatening situations.",2,Q184
+184-03,Abortion is rarely justifiable and should only be considered in very exceptional cases.,3,Q184
+184-04,"Abortion is generally not justifiable, though a few specific circumstances may warrant consideration.",4,Q184
+184-05,"Abortion is sometimes justifiable, depending on the situation.",5,Q184
+184-06,"Abortion is justifiable in a range of circumstances, though not without conditions.",6,Q184
+184-07,Abortion is justifiable in most cases where the woman deems it necessary.,7,Q184
+184-08,"Abortion is largely justifiable, with only a few edge cases giving me pause.",8,Q184
+184-09,"Abortion is almost always justifiable, as it is fundamentally a personal choice.",9,Q184
+184-10,"Abortion is always justifiable, as it is an unconditional right.",10,Q184
+185-01,Divorce is never justifiable under any circumstances.,1,Q185
+185-02,"Divorce is almost never justifiable, except perhaps in the most extreme cases.",2,Q185
+185-03,Divorce is rarely justifiable and should generally be avoided.,3,Q185
+185-04,"Divorce is justifiable in some limited situations, but should not be taken lightly.",4,Q185
+185-05,Divorce can be justifiable depending on the circumstances.,5,Q185
+185-06,Divorce is often justifiable when the relationship is no longer working.,6,Q185
+185-07,Divorce is generally justifiable when partners are unhappy or incompatible.,7,Q185
+185-08,Divorce is justifiable in most situations where the marriage has broken down.,8,Q185
+185-09,Divorce is almost always justifiable when one or both partners want it.,9,Q185
+185-10,Divorce is always justifiable.,10,Q185
+186-01,Sex before marriage is never justifiable under any circumstances.,1,Q186
+186-02,"Sex before marriage is almost never justifiable, with only the rarest of exceptions.",2,Q186
+186-03,Sex before marriage is rarely justifiable and generally goes against my values.,3,Q186
+186-04,"Sex before marriage is seldom justifiable, though I can see some limited cases where it might be.",4,Q186
+186-05,"Sex before marriage can sometimes be justifiable, but I remain largely skeptical.",5,Q186
+186-06,"Sex before marriage is often justifiable, depending on the situation.",6,Q186
+186-07,Sex before marriage is generally justifiable as long as both partners are committed.,7,Q186
+186-08,Sex before marriage is mostly justifiable and a reasonable choice for many couples.,8,Q186
+186-09,Sex before marriage is almost always justifiable for consenting adults in a relationship.,9,Q186
+186-10,Sex before marriage is always justifiable and entirely a personal choice.,10,Q186
+187-01,Suicide is never justifiable under any circumstances.,1,Q187
+187-02,"Suicide is almost never justifiable, with only the rarest of exceptions imaginable.",2,Q187
+187-03,"Suicide is rarely justifiable, though I can conceive of a very small number of extreme cases.",3,Q187
+187-04,"Suicide is generally not justifiable, but there may be a few specific situations where it could be understood.",4,Q187
+187-05,Whether suicide is justifiable depends entirely on the context and circumstances.,5,Q187
+187-06,"Suicide can be justifiable in certain situations, though it remains the exception rather than the rule.",6,Q187
+187-07,"Suicide is justifiable in a number of situations, even if it shouldn't be the default choice.",7,Q187
+187-08,"Suicide is often justifiable, particularly when someone is facing unbearable and inescapable suffering.",8,Q187
+187-09,"Suicide is justifiable in most circumstances, as personal autonomy over one's own life is paramount.",9,Q187
+187-10,"Suicide is always justifiable, as every individual has an absolute right to end their own life.",10,Q187
+188-01,Euthanasia is never justifiable under any circumstances.,1,Q188
+188-02,"Euthanasia is almost never justifiable, with only the rarest of exceptions.",2,Q188
+188-03,"Euthanasia is rarely justifiable, and should be approached with extreme caution.",3,Q188
+188-04,"Euthanasia is occasionally justifiable, but only in a limited set of specific cases.",4,Q188
+188-05,"Euthanasia can be justifiable, though the decision requires careful consideration on a case-by-case basis.",5,Q188
+188-06,"Euthanasia is justifiable in many situations, though some cases still warrant hesitation.",6,Q188
+188-07,"Euthanasia is generally justifiable, with only a few situations where it may not be appropriate.",7,Q188
+188-08,"Euthanasia is justifiable in most cases, and should be more widely accepted.",8,Q188
+188-09,"Euthanasia is almost always justifiable, and restrictions on it should be minimal.",9,Q188
+188-10,"Euthanasia is always justifiable, and individuals should have unconditional access to it.",10,Q188
+189-01,"Beating one's wife is never, under any circumstances, justifiable.",1,Q189
+189-02,"Beating one's wife is almost never justifiable, except perhaps in the most extreme and unimaginable scenarios.",2,Q189
+189-03,"Beating one's wife is very rarely justifiable, and only in extraordinarily exceptional cases.",3,Q189
+189-04,"Beating one's wife is generally not justifiable, though some edge cases might complicate the picture.",4,Q189
+189-05,Whether beating one's wife is justifiable depends heavily on the circumstances.,5,Q189
+189-06,"Beating one's wife can sometimes be justifiable, depending on the situation.",6,Q189
+189-07,"Beating one's wife is more often justifiable than not, given the right circumstances.",7,Q189
+189-08,Beating one's wife is justifiable in most circumstances.,8,Q189
+189-09,Beating one's wife is almost always justifiable.,9,Q189
+189-10,"Beating one's wife is always justifiable, regardless of the circumstances.",10,Q189
+190-01,"Beating children is never, under any circumstance, justifiable.",1,Q190
+190-02,"Beating children is almost never justifiable, with only the rarest of conceivable exceptions.",2,Q190
+190-03,"Beating children is very rarely justifiable, and should generally be considered unacceptable.",3,Q190
+190-04,"Beating children is rarely justifiable, though some specific situations might warrant it.",4,Q190
+190-05,"Beating children can sometimes be justifiable, depending on the context.",5,Q190
+190-06,"Beating children is justifiable in certain situations, though it should remain uncommon.",6,Q190
+190-07,"Beating children is often justifiable, particularly as a disciplinary measure.",7,Q190
+190-08,Beating children is justifiable in most cases where discipline is needed.,8,Q190
+190-09,Beating children is almost always justifiable as a parenting approach.,9,Q190
+190-10,Beating children is always justifiable and an acceptable part of parenting.,10,Q190
+191-01,Violence against other people is never justifiable under any circumstances.,1,Q191
+191-02,"Violence against other people is almost never justifiable, with only the rarest of exceptions.",2,Q191
+191-03,"Violence against other people is rarely justifiable, though extreme situations may warrant it.",3,Q191
+191-04,"Violence against other people is generally unjustifiable, but some specific cases may justify it.",4,Q191
+191-05,"Violence against other people can be justifiable or not, depending on the situation.",5,Q191
+191-06,"Violence against other people is justifiable in certain situations, though generally to be avoided.",6,Q191
+191-07,Violence against other people is often justifiable when circumstances call for it.,7,Q191
+191-08,Violence against other people is justifiable in most situations.,8,Q191
+191-09,Violence against other people is almost always justifiable.,9,Q191
+191-10,"Violence against other people is always justifiable, regardless of the circumstances.",10,Q191
+192-01,"Terrorism as a political, ideological or religious mean is never justifiable.",1,Q192
+192-02,"Terrorism as a political, ideological or religious mean is almost never justifiable.",2,Q192
+192-03,"Terrorism as a political, ideological or religious mean is rarely justifiable.",3,Q192
+192-04,"Terrorism as a political, ideological or religious mean is generally not justifiable.",4,Q192
+192-05,"Terrorism as a political, ideological or religious mean is not clearly justifiable or unjustifiable.",5,Q192
+192-06,"Terrorism as a political, ideological or religious mean is sometimes justifiable.",6,Q192
+192-07,"Terrorism as a political, ideological or religious mean is often justifiable.",7,Q192
+192-08,"Terrorism as a political, ideological or religious mean is largely justifiable.",8,Q192
+192-09,"Terrorism as a political, ideological or religious mean is almost always justifiable.",9,Q192
+192-10,"Terrorism as a political, ideological or religious mean is always justifiable.",10,Q192
+193-01,Casual sex is never justifiable under any circumstances.,1,Q193
+193-02,Casual sex is almost never justifiable and should generally be avoided.,2,Q193
+193-03,Casual sex is rarely justifiable and only in very exceptional cases.,3,Q193
+193-04,"Casual sex is hard to justify, though there may be a few situations where it's acceptable.",4,Q193
+193-05,"Casual sex can sometimes be justifiable, depending on the situation.",5,Q193
+193-06,"Casual sex is justifiable in more cases than not, given the right context.",6,Q193
+193-07,Casual sex is generally justifiable as long as certain conditions are met.,7,Q193
+193-08,Casual sex is mostly justifiable with few reservations.,8,Q193
+193-09,Casual sex is almost always justifiable with very little to object to.,9,Q193
+193-10,Casual sex is always justifiable and needs no further reasoning.,10,Q193
+194-01,"Political violence is never justifiable, period.",1,Q194
+194-02,Political violence is almost never justifiable.,2,Q194
+194-03,Political violence is rarely justifiable.,3,Q194
+194-04,Political violence is generally not justifiable.,4,Q194
+194-05,I'm not sure whether political violence is justifiable or not.,5,Q194
+194-06,Political violence can sometimes be justifiable.,6,Q194
+194-07,Political violence is often justifiable.,7,Q194
+194-08,Political violence is justifiable more often than not.,8,Q194
+194-09,Political violence is almost always justifiable.,9,Q194
+194-10,"Political violence is always justifiable, no matter what.",10,Q194
+195-01,The death penalty is never justifiable under any circumstances.,1,Q195
+195-02,"The death penalty is almost never justifiable, with only the rarest possible exceptions.",2,Q195
+195-03,"The death penalty is rarely justifiable, and should only be considered in extreme cases.",3,Q195
+195-04,"The death penalty is generally not justifiable, though some edge cases may warrant it.",4,Q195
+195-05,"The death penalty is sometimes justifiable, depending on the severity of the crime.",5,Q195
+195-06,"The death penalty is justifiable more often than not, for serious enough offenses.",6,Q195
+195-07,The death penalty is frequently justifiable when crimes are particularly heinous.,7,Q195
+195-08,The death penalty is usually justifiable for severe crimes.,8,Q195
+195-09,The death penalty is justifiable in nearly every case of the most serious crimes.,9,Q195
+195-10,The death penalty is always justifiable as a fitting punishment for capital crimes.,10,Q195
+196-01,I definitely think the government should have the right to keep people under video surveillance in public areas.,1,Q196
+196-02,I think the government should probably have the right to keep people under video surveillance in public areas.,2,Q196
+196-03,I think the government probably should not have the right to keep people under video surveillance in public areas.,3,Q196
+196-04,I definitely think the government should not have the right to keep people under video surveillance in public areas.,4,Q196
+197-01,I firmly believe the government should have the right to monitor all emails and information exchanged on the Internet.,1,Q197
+197-02,I think the government should probably have the right to monitor all emails and information exchanged on the Internet.,2,Q197
+197-03,I don't think the government should really have the right to monitor all emails and information exchanged on the Internet.,3,Q197
+197-04,I firmly believe the government should have no right to monitor all emails and information exchanged on the Internet.,4,Q197
+198-01,The government should absolutely have the right to collect information about anyone living in this country without their knowledge.,1,Q198
+198-02,The government should probably have the right to collect information about anyone living in this country without their knowledge.,2,Q198
+198-03,The government probably should not have the right to collect information about anyone living in this country without their knowledge.,3,Q198
+198-04,The government should definitely not have the right to collect information about anyone living in this country without their knowledge.,4,Q198
+199-01,I am very interested in politics.,1,Q199
+199-02,I am somewhat interested in politics.,2,Q199
+199-03,I am not very interested in politics.,3,Q199
+199-04,I am not at all interested in politics.,4,Q199
+224-01,Votes in this country's elections are counted fairly very often.,1,Q224
+224-02,Votes in this country's elections are counted fairly often.,2,Q224
+224-03,Votes in this country's elections are not counted fairly very often.,3,Q224
+224-04,Votes in this country's elections are hardly ever counted fairly.,4,Q224
+225-01,Opposing candidates are almost always barred from running in this country's elections.,1,Q225
+225-02,Opposing candidates are sometimes barred from running in this country's elections.,2,Q225
+225-03,Opposing candidates are rarely barred from running in this country's elections.,3,Q225
+225-04,Opposing candidates are almost never barred from running in this country's elections.,4,Q225
+226-01,TV news very often favors the governing party in this country's elections.,1,Q226
+226-02,TV news fairly often favors the governing party in this country's elections.,2,Q226
+226-03,TV news does not often favor the governing party in this country's elections.,3,Q226
+226-04,TV news does not often at all favor the governing party in this country's elections.,4,Q226
+227-01,Voters are very often bribed in this country's elections.,1,Q227
+227-02,Voters are fairly often bribed in this country's elections.,2,Q227
+227-03,Voters are not often bribed in this country's elections.,3,Q227
+227-04,Voters are not bribed at all in this country's elections.,4,Q227
+228-01,Journalists almost always provide fair coverage of elections in this country.,1,Q228
+228-02,Journalists generally provide fair coverage of elections in this country.,2,Q228
+228-03,Journalists rarely provide fair coverage of elections in this country.,3,Q228
+228-04,Journalists almost never provide fair coverage of elections in this country.,4,Q228
+229-01,Election officials are very often fair in this country's elections.,1,Q229
+229-02,Election officials are fairly often fair in this country's elections.,2,Q229
+229-03,Election officials are not often fair in this country's elections.,3,Q229
+229-04,Election officials are not often fair at all in this country's elections.,4,Q229
+230-01,Rich people very often buy elections in this country.,1,Q230
+230-02,Rich people fairly often buy elections in this country.,2,Q230
+230-03,Rich people do not often buy elections in this country.,3,Q230
+230-04,Rich people do not buy elections in this country at all.,4,Q230
+231-01,Voters are very often threatened with violence at the polls in this country's elections.,1,Q231
+231-02,Voters are fairly often threatened with violence at the polls in this country's elections.,2,Q231
+231-03,Voters are not often threatened with violence at the polls in this country's elections.,3,Q231
+231-04,Voters are not threatened with violence at the polls in this country's elections at all.,4,Q231
+232-01,Voters are almost always offered a genuine choice in elections.,1,Q232
+232-02,Voters are fairly often offered a genuine choice in elections.,2,Q232
+232-03,Voters are rarely offered a genuine choice in elections.,3,Q232
+232-04,Voters are almost never offered a genuine choice in elections.,4,Q232
+233-01,Women very often have equal opportunities to run for office in this country's elections.,1,Q233
+233-02,Women fairly often have equal opportunities to run for office in this country's elections.,2,Q233
+233-03,Women do not often have equal opportunities to run for office in this country's elections.,3,Q233
+233-04,Women do not often at all have equal opportunities to run for office in this country's elections.,4,Q233
+234-01,Having honest elections is absolutely fundamental to my life and how society functions.,1,Q234
+234-02,"Having honest elections matters to me, even if I don't always feel its direct impact.",2,Q234
+234-03,Having honest elections is not something I think about much or feel strongly about.,3,Q234
+234-04,Having honest elections makes no difference to me whatsoever.,4,Q234
+235-01,Having a strong leader free from parliamentary and electoral constraints is an excellent way to govern this country.,1,Q235
+235-02,Having a strong leader free from parliamentary and electoral constraints could be a reasonable way to govern this country.,2,Q235
+235-03,Having a strong leader free from parliamentary and electoral constraints is not really a good way to govern this country.,3,Q235
+235-04,Having a strong leader free from parliamentary and electoral constraints is a terrible way to govern this country.,4,Q235
+236-01,Having experts rather than the government make decisions about what's best for the country would be an excellent way to govern.,1,Q236
+236-02,Having experts rather than the government make decisions about what's best for the country would probably be a good way to govern.,2,Q236
+236-03,Having experts rather than the government make decisions about what's best for the country would probably not be a good way to govern.,3,Q236
+236-04,Having experts rather than the government make decisions about what's best for the country would be a terrible way to govern.,4,Q236
+237-01,Military rule is exactly what this country needs.,1,Q237
+237-02,Military rule might not be the worst way to govern this country.,2,Q237
+237-03,Military rule is probably not the right way to govern this country.,3,Q237
+237-04,Military rule is absolutely no way to govern this country.,4,Q237
+238-01,Democracy is definitely the right way to govern this country.,1,Q238
+238-02,Democracy seems like a decent way to govern this country.,2,Q238
+238-03,Democracy doesn't seem like a great way to govern this country.,3,Q238
+238-04,Democracy is clearly the wrong way to govern this country.,4,Q238
+239-01,"A system governed by religious law, with no political parties or elections, is an excellent way to govern this country.",1,Q239
+239-02,"A system governed by religious law, with no political parties or elections, could be a reasonable way to govern this country.",2,Q239
+239-03,"A system governed by religious law, with no political parties or elections, is not really a good way to govern this country.",3,Q239
+239-04,"A system governed by religious law, with no political parties or elections, is a terrible way to govern this country.",4,Q239
+240-01,I place myself clearly on the left of the political spectrum.,1,Q240
+240-02,"I lean left, though not at the extreme end of the spectrum.",2,Q240
+240-03,I consider myself moderately left-leaning in my political views.,3,Q240
+240-04,I sit slightly to the left of center on the political spectrum.,4,Q240
+240-05,I would place myself right in the center of the political spectrum.,5,Q240
+240-06,I sit slightly to the right of center on the political spectrum.,6,Q240
+240-07,I consider myself moderately right-leaning in my political views.,7,Q240
+240-08,"I lean right, though not at the extreme end of the spectrum.",8,Q240
+240-09,I place myself clearly on the right of the political spectrum.,9,Q240
+240-10,I place myself firmly at the far right of the political spectrum.,10,Q240
+241-01,Taxing the rich to subsidize the poor is not at all an essential characteristic of democracy.,1,Q241
+241-02,Taxing the rich to subsidize the poor is barely an essential characteristic of democracy.,2,Q241
+241-03,Taxing the rich to subsidize the poor is only slightly an essential characteristic of democracy.,3,Q241
+241-04,"Taxing the rich to subsidize the poor is somewhat, but not quite, an essential characteristic of democracy.",4,Q241
+241-05,Taxing the rich to subsidize the poor is neither clearly essential nor non-essential as a characteristic of democracy.,5,Q241
+241-06,Taxing the rich to subsidize the poor is somewhat essential as a characteristic of democracy.,6,Q241
+241-07,Taxing the rich to subsidize the poor is a fairly essential characteristic of democracy.,7,Q241
+241-08,Taxing the rich to subsidize the poor is quite an essential characteristic of democracy.,8,Q241
+241-09,Taxing the rich to subsidize the poor is almost entirely essential as a characteristic of democracy.,9,Q241
+241-10,Taxing the rich to subsidize the poor is completely essential as a characteristic of democracy.,10,Q241
+242-01,Religious authorities interpreting the laws is absolutely not a characteristic of democracy.,1,Q242
+242-02,I find it very hard to see religious legal authority as having any meaningful place in democracy.,2,Q242
+242-03,Religious authorities interpreting laws strikes me as largely incompatible with what democracy stands for.,3,Q242
+242-04,I don't really consider religious legal authority an essential feature of democracy.,4,Q242
+242-05,"Religious authorities interpreting the laws feels only marginally relevant, at best, to what makes a democracy.",5,Q242
+242-06,I can see a slight case for religious legal authority playing some role in certain democratic systems.,6,Q242
+242-07,Religious authorities interpreting laws could be considered a secondary but meaningful characteristic of some democracies.,7,Q242
+242-08,I think religious legal authority has a fairly important role to play in a democratic system.,8,Q242
+242-09,Religious authorities interpreting the laws seems to me a quite essential characteristic of democracy.,9,Q242
+242-10,I consider religious authorities having the final say on laws to be a fundamental and essential feature of democracy.,10,Q242
+243-01,Free elections are not at all an essential characteristic of democracy.,1,Q243
+243-02,Free elections are barely an essential characteristic of democracy.,2,Q243
+243-03,Free elections are only slightly an essential characteristic of democracy.,3,Q243
+243-04,Free elections are a minor characteristic of democracy at best.,4,Q243
+243-05,Free elections are a somewhat essential characteristic of democracy.,5,Q243
+243-06,Free elections are a moderately essential characteristic of democracy.,6,Q243
+243-07,Free elections are a fairly essential characteristic of democracy.,7,Q243
+243-08,Free elections are a quite essential characteristic of democracy.,8,Q243
+243-09,Free elections are a very essential characteristic of democracy.,9,Q243
+243-10,Free elections are a completely essential characteristic of democracy.,10,Q243
+244-01,"Unemployment aid has nothing to do with democracy, states can be fully democratic without it.",1,Q244
+244-02,Unemployment aid is barely relevant to democracy; it's more of a policy choice than a defining feature.,2,Q244
+244-03,"I don't see unemployment aid as particularly essential to democracy, though it's not entirely unrelated.",3,Q244
+244-04,"Unemployment aid is a nice democratic value to have, but I wouldn't call it a core characteristic.",4,Q244
+244-05,"I'm torn: unemployment aid feels somewhat tied to democratic principles, but not fundamentally so.",5,Q244
+244-06,"Unemployment aid leans toward being a democratic characteristic, even if it's not strictly essential.",6,Q244
+244-07,"I'd say unemployment aid is fairly important to democracy, reflecting the state's responsibility to its citizens.",7,Q244
+244-08,"Unemployment aid is quite essential to democracy, as it ensures citizens can meaningfully participate in society.",8,Q244
+244-09,"Unemployment aid is nearly indispensable to democracy, as a state that ignores it undermines democratic values.",9,Q244
+244-10,"Unemployment aid is absolutely essential to democracy; without it, citizens cannot exercise their rights as equals.",10,Q244
+245-01,The army taking over when government is incompetent is absolutely not a characteristic of democracy.,1,Q245
+245-02,I find it very hard to see military takeover of an incompetent government as even a minor characteristic of democracy.,2,Q245
+245-03,Military intervention in cases of government incompetence is largely incompatible with what I'd consider democratic characteristics.,3,Q245
+245-04,I don't really think the army stepping in when government fails qualifies as a meaningful characteristic of democracy.,4,Q245
+245-05,Whether military takeover of an incompetent government is a democratic characteristic is debatable (I can see it both ways).,5,Q245
+245-06,"I'd say the army taking over an incompetent government has some marginal place as a characteristic of democracy, though it's far from central.",6,Q245
+245-07,Military intervention when government is incompetent strikes me as a somewhat meaningful characteristic of democracy in certain contexts.,7,Q245
+245-08,I think the army stepping in to replace an incompetent government is a fairly important characteristic of a functioning democracy.,8,Q245
+245-09,"The military taking over when government proves incompetent is, in my view, a highly essential characteristic of democracy.",9,Q245
+245-10,I consider the army's ability to take over an incompetent government an absolutely essential characteristic of democracy.,10,Q245
+246-01,Civil rights protecting people from state oppression is not at all an essential characteristic of democracy.,1,Q246
+246-02,Civil rights protecting people from state oppression is barely an essential characteristic of democracy.,2,Q246
+246-03,Civil rights protecting people from state oppression is only slightly an essential characteristic of democracy.,3,Q246
+246-04,"Civil rights protecting people from state oppression is somewhat, but not really, an essential characteristic of democracy.",4,Q246
+246-05,Civil rights protecting people from state oppression is neither essential nor unessential as a characteristic of democracy.,5,Q246
+246-06,Civil rights protecting people from state oppression is a somewhat essential characteristic of democracy.,6,Q246
+246-07,Civil rights protecting people from state oppression is a fairly essential characteristic of democracy.,7,Q246
+246-08,Civil rights protecting people from state oppression is an essential characteristic of democracy.,8,Q246
+246-09,Civil rights protecting people from state oppression is a very essential characteristic of democracy.,9,Q246
+246-10,Civil rights protecting people from state oppression is an absolutely essential characteristic of democracy.,10,Q246
+247-01,The state making people's incomes equal is not at all an essential characteristic of democracy.,1,Q247
+247-02,The state making people's incomes equal is barely an essential characteristic of democracy.,2,Q247
+247-03,The state making people's incomes equal is only slightly an essential characteristic of democracy.,3,Q247
+247-04,"The state making people's incomes equal is somewhat, but not really, an essential characteristic of democracy.",4,Q247
+247-05,The state making people's incomes equal is neither clearly essential nor inessential as a characteristic of democracy.,5,Q247
+247-06,The state making people's incomes equal is a somewhat essential characteristic of democracy.,6,Q247
+247-07,The state making people's incomes equal is a moderately essential characteristic of democracy.,7,Q247
+247-08,The state making people's incomes equal is quite an essential characteristic of democracy.,8,Q247
+247-09,The state making people's incomes equal is a very essential characteristic of democracy.,9,Q247
+247-10,The state making people's incomes equal is an absolutely essential characteristic of democracy.,10,Q247
+248-01,"People obeying their rulers has absolutely nothing to do with democracy; if anything, it contradicts it.",1,Q248
+248-02,I don't really see obedience to rulers as a characteristic of democracy at all.,2,Q248
+248-03,Obedience to rulers is barely relevant to democracy; it's more of a side issue at best.,3,Q248
+248-04,"While obedience to rulers plays some minor role, I wouldn't consider it a real hallmark of democracy.",4,Q248
+248-05,"I'm torn: obedience to rulers feels somewhat related to democracy, but I wouldn't call it essential.",5,Q248
+248-06,"Obedience to rulers is moderately important to democracy, though other characteristics matter more.",6,Q248
+248-07,I think obedience to rulers is fairly essential to democracy functioning properly.,7,Q248
+248-08,"Obedience to rulers is quite an important characteristic of democracy, in my view.",8,Q248
+248-09,People obeying their rulers is very close to being a defining characteristic of democracy for me.,9,Q248
+248-10,"Obedience to rulers is absolutely essential to democracy: without it, the whole system breaks down.",10,Q248
+249-01,I don't think women having the same rights as men has anything to do with democracy.,1,Q249
+249-02,Women's equal rights are barely relevant to what makes a democracy.,2,Q249
+249-03,"I see women's equal rights as a minor, non-essential feature of democracy.",3,Q249
+249-04,"Women's equal rights are somewhat related to democracy, but not a defining characteristic.",4,Q249
+249-05,"I think women's equal rights are moderately important to democracy, though not fundamental.",5,Q249
+249-06,"Women's equal rights matter to democracy, even if they're not strictly essential.",6,Q249
+249-07,I consider women's equal rights a fairly important characteristic of democracy.,7,Q249
+249-08,Women's equal rights are quite essential to what I'd call a true democracy.,8,Q249
+249-09,I think women having the same rights as men is nearly indispensable to democracy.,9,Q249
+249-10,Women having the same rights as men is absolutely essential to democracy.,10,Q249
+250-01,Living in a democracy means nothing to me.,1,Q250
+250-02,Whether my country is democratic barely crosses my mind.,2,Q250
+250-03,I don't put much weight on living in a democratic country.,3,Q250
+250-04,"Living in a democracy is somewhat of a consideration for me, but not a strong one.",4,Q250
+250-05,I'm somewhat indifferent about whether my country is democratic or not.,5,Q250
+250-06,"Living in a democratic country matters to me, though it's not my top priority.",6,Q250
+250-07,It's fairly important to me to live in a country that is democratically governed.,7,Q250
+250-08,Living under a democratic government is quite important to me.,8,Q250
+250-09,It's very important to me that my country is governed democratically.,9,Q250
+250-10,Living in a democratically governed country is absolutely essential to me.,10,Q250
+251-01,This country is governed by an authoritarian regime with no democratic process whatsoever.,1,Q251
+251-02,"Democratic governance is almost entirely absent, with only superficial traces remaining.",2,Q251
+251-03,"There are very few democratic elements, and the government largely operates without accountability.",3,Q251
+251-04,"Democratic governance is weak and inconsistent, with significant authoritarian tendencies.",4,Q251
+251-05,"The country has some democratic structures, but they are undermined by serious flaws.",5,Q251
+251-06,"Governance is moderately democratic, though notable gaps and weaknesses persist.",6,Q251
+251-07,"The country is fairly democratically governed, despite some remaining shortcomings.",7,Q251
+251-08,"Democratic governance is mostly solid, with only minor issues affecting its quality.",8,Q251
+251-09,"The country is governed very democratically, with only marginal room for improvement.",9,Q251
+251-10,"This country is governed in a fully democratic manner, serving as a model for others.",10,Q251
+252-01,I am completely dissatisfied with how the political system is functioning in my country.,1,Q252
+252-02,I am very dissatisfied with how the political system is functioning in my country.,2,Q252
+252-03,I am quite dissatisfied with how the political system is functioning in my country.,3,Q252
+252-04,I am somewhat dissatisfied with how the political system is functioning in my country.,4,Q252
+252-05,I am neither satisfied nor dissatisfied with how the political system is functioning in my country.,5,Q252
+252-06,I am slightly satisfied with how the political system is functioning in my country.,6,Q252
+252-07,I am somewhat satisfied with how the political system is functioning in my country.,7,Q252
+252-08,I am quite satisfied with how the political system is functioning in my country,8,Q252
+252-09,I am very satisfied with how the political system is functioning in my country.,9,Q252
+252-10,I am completely satisfied with how the political system is functioning in my country.,10,Q252
+253-01,There is a great deal of respect for individual human rights in this country nowadays.,1,Q253
+253-02,There is fairly much respect for individual human rights in this country nowadays.,2,Q253
+253-03,There is not much respect for individual human rights in this country nowadays.,3,Q253
+253-04,There is no respect at all for individual human rights in this country nowadays.,4,Q253
+300-01,I feel the political system gives people like me a great deal of say in what the government does.,1,SDG1
+300-02,I feel the political system gives people like me quite a lot of say in what the government does.,2,SDG1
+300-03,I feel the political system gives people like me some say in what the government does.,3,SDG1
+300-04,I feel the political system gives people like me very little say in what the government does.,4,SDG1
+300-05,I feel the political system gives people like me no say at all in what the government does.,5,SDG1
