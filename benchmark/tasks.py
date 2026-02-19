@@ -12,6 +12,7 @@ This mirrors the MTEB design where tasks are self-contained units.
 from __future__ import annotations
 
 import abc
+import csv
 import logging
 import time
 from dataclasses import dataclass, field
@@ -39,7 +40,7 @@ class Task(abc.ABC):
 
 
 # ---------------------------------------------------------------------------
-# Semantic Textual Similarity (STS)
+# Semantic Textual Similarity (STS) - for demo purposes
 # ---------------------------------------------------------------------------
 
 @dataclass
@@ -94,7 +95,7 @@ class STSTask(Task):
 
 
 # ---------------------------------------------------------------------------
-# Retrieval (Information Retrieval)
+# Retrieval (Information Retrieval) - for demo purposes
 # ---------------------------------------------------------------------------
 
 @dataclass
@@ -198,7 +199,7 @@ class RetrievalTask(Task):
 
 
 # ---------------------------------------------------------------------------
-# Clustering
+# Clustering - for demo purposes
 # ---------------------------------------------------------------------------
 
 @dataclass
@@ -249,6 +250,37 @@ class ClusteringTask(Task):
 
 
 # ---------------------------------------------------------------------------
+# Likert Continuum (WVS) - placeholder loader
+# ---------------------------------------------------------------------------
+
+@dataclass
+class LikertContinuumWVSTask(Task):
+    """
+    Placeholder task for the WVS Likert continuum benchmark.
+
+    For now, it just loads the CSV so we can validate data wiring.
+    """
+
+    name: str = "Likert continuum WVS"
+    description: str = "Likert continuum benchmark using WVS statements"
+    data_path: Path = Path("data/WVS Statements.csv")
+
+    def run(self, model, cache_dir: Path, **kwargs) -> dict[str, float]:
+        csv_path = self.data_path
+        if not csv_path.is_file():
+            raise FileNotFoundError(f"WVS statements CSV not found: {csv_path}")
+
+        with csv_path.open("r", encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+
+        return {
+            "num_rows": float(len(rows)),
+            "main_score": 0.0,
+        }
+
+
+# ---------------------------------------------------------------------------
 # Registry
 # ---------------------------------------------------------------------------
 
@@ -256,6 +288,7 @@ TASK_REGISTRY: dict[str, Task] = {
     "sts": STSTask(),
     "retrieval": RetrievalTask(),
     "clustering": ClusteringTask(),
+    "likert_wvs": LikertContinuumWVSTask(),
 }
 
 
