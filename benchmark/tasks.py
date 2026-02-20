@@ -256,16 +256,31 @@ class ClusteringTask(Task):
 @dataclass
 class LikertContinuumWVSTask(Task):
     """
-    Placeholder task for the WVS Likert continuum benchmark.
+    WVS Likert continuum benchmark.
 
-    For now, it just loads the CSV so we can validate data wiring.
+    For each WVS question, embeds its statements, projects them onto the
+    first PCA axis, and computes the absolute Spearman correlation with the
+    corresponding numeric codes. Reports the mean correlation across questions.
+
+    WVS: World Values Survey, a large cross-cultural survey with many questions
+    measured on a Likert scale.
+
+    Dataset format: a CSV with columns "WVS question", "Statement", "Code".
     """
 
-    name: str = "Likert continuum WVS"
-    description: str = "Likert continuum benchmark using WVS statements"
+    name: str = "likert-wvs"
+    description: str = (
+        "Per-question Spearman correlation between PCA-1 projected statement "
+        "embeddings and WVS codes, averaged across questions"
+    )
     data_path: Path = Path("data/WVS Statements.csv")
 
     def run(self, model, cache_dir: Path, **kwargs) -> dict[str, float]:
+        from collections import defaultdict
+
+        from scipy.stats import spearmanr
+        from sklearn.decomposition import PCA
+
         csv_path = self.data_path
         if not csv_path.is_file():
             raise FileNotFoundError(f"WVS statements CSV not found: {csv_path}")
@@ -274,9 +289,39 @@ class LikertContinuumWVSTask(Task):
             reader = csv.DictReader(handle)
             rows = list(reader)
 
+        grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
+        for row in rows:
+            grouped[row["WVS question"]].append(row)
+
+        spearman_scores: list[float] = []
+        for question, q_rows in grouped.items():
+
+            texts = [r["Statement"] for r in q_rows]
+            codes = np.array([float(r["Code"]) for r in q_rows], dtype=np.float32)
+
+            embs = encode_with_cache(
+                model,
+                texts,
+                dataset_name=f"{self.name}__{question}",
+                cache_dir=cache_dir,
+                **kwargs,
+            )
+
+            pca = PCA(n_components=1, random_state=42)
+            axis_values = pca.fit_transform(embs).reshape(-1)
+
+            rho = spearmanr(axis_values, codes).statistic
+            if np.isnan(rho):
+                continue
+            spearman_scores.append(float(abs(rho)))
+
+        mean_spearman = float(np.mean(spearman_scores)) if spearman_scores else 0.0
+
         return {
             "num_rows": float(len(rows)),
-            "main_score": 0.0,
+            "num_questions": float(len(spearman_scores)),
+            "spearman": mean_spearman,
+            "main_score": mean_spearman,
         }
 
 
@@ -288,7 +333,7 @@ TASK_REGISTRY: dict[str, Task] = {
     "sts": STSTask(),
     "retrieval": RetrievalTask(),
     "clustering": ClusteringTask(),
-    "likert_wvs": LikertContinuumWVSTask(),
+    "likert-wvs": LikertContinuumWVSTask(),
 }
 
 
