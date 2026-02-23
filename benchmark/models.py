@@ -171,6 +171,7 @@ def load_model(cfg: dict) -> EmbeddingModel:
             device=cfg.get("device"),
             normalize=cfg.get("normalize", True),
             encode_kwargs=cfg.get("encode_kwargs", {}),
+            trust_remote_code=True,
         )
     elif kind == "openai":
         return OpenAIEmbeddingModel(
