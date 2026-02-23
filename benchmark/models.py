@@ -52,15 +52,17 @@ class SentenceTransformerModel(EmbeddingModel):
     Wraps any model loadable by sentence-transformers.
 
     Args:
-        model_name_or_path: HuggingFace model ID or local path.
-        device:             'cpu', 'cuda', 'mps', or None (auto-detect).
-        normalize:          L2-normalize embeddings after encoding.
-        encode_kwargs:      Extra kwargs forwarded to model.encode().
+        model_name_or_path:  HuggingFace model ID or local path.
+        device:              'cpu', 'cuda', 'mps', or None (auto-detect).
+        normalize:           L2-normalize embeddings after encoding.
+        trust_remote_code:   Allow models to execute custom code (default: False).
+        encode_kwargs:       Extra kwargs forwarded to model.encode().
     """
 
     model_name_or_path: str
     device: Optional[str] = None
     normalize: bool = True
+    trust_remote_code: bool = False
     encode_kwargs: dict = field(default_factory=dict)
 
     # set after __post_init__
@@ -78,9 +80,16 @@ class SentenceTransformerModel(EmbeddingModel):
             raise ImportError("pip install sentence-transformers")
 
         logger.info(f"Loading {self.model_name_or_path} …")
+        
+        kwargs = {
+            "device": self.device,
+        }
+        if self.trust_remote_code:
+            kwargs["trust_remote_code"] = True
+        
         self._model = SentenceTransformer(
             self.model_name_or_path,
-            device=self.device,
+            **kwargs,
         )
 
     def encode(
@@ -170,6 +179,7 @@ def load_model(cfg: dict) -> EmbeddingModel:
             model_name_or_path=cfg["model"],
             device=cfg.get("device"),
             normalize=cfg.get("normalize", True),
+            trust_remote_code=cfg.get("trust_remote_code", False),
             encode_kwargs=cfg.get("encode_kwargs", {}),
         )
     elif kind == "openai":
