@@ -94,109 +94,6 @@ class STSTask(Task):
         }
 
 
-# ---------------------------------------------------------------------------
-# Retrieval (Information Retrieval) - for demo purposes
-# ---------------------------------------------------------------------------
-
-@dataclass
-class RetrievalTask(Task):
-    """
-    Passage retrieval evaluated with NDCG@10 and Recall@k.
-
-    Expects three HuggingFace datasets (following the BEIR format):
-      - corpus:  id, text (+ optional title)
-      - queries: id, text
-      - qrels:   query-id, corpus-id, score
-
-    Default: a small synthetic demo dataset so the task runs without
-    downloading large files. Pass your own hf_* names to override.
-    """
-
-    name: str = "Retrieval-Demo"
-    description: str = "Small synthetic retrieval benchmark"
-    hf_corpus: Optional[str] = None
-    hf_queries: Optional[str] = None
-    hf_qrels: Optional[str] = None
-    top_k: int = 10
-
-    def _load_synthetic(self):
-        """Tiny in-memory dataset for smoke-testing."""
-        corpus = {
-            "d1": "Paris is the capital of France.",
-            "d2": "Berlin is the capital of Germany.",
-            "d3": "Rome is the capital of Italy.",
-            "d4": "Madrid is the capital of Spain.",
-            "d5": "Lisbon is the capital of Portugal.",
-            "d6": "The Eiffel Tower is located in Paris.",
-            "d7": "The Brandenburg Gate is in Berlin.",
-            "d8": "The Colosseum is in Rome.",
-        }
-        queries = {
-            "q1": "What is the capital of France?",
-            "q2": "Famous landmarks in Germany",
-        }
-        qrels = {
-            "q1": {"d1": 1, "d6": 1},
-            "q2": {"d2": 1, "d7": 1},
-        }
-        return corpus, queries, qrels
-
-    def run(self, model, cache_dir: Path, **kwargs) -> dict[str, float]:
-        if self.hf_corpus:
-            raise NotImplementedError(
-                "BEIR-format HF loading not yet implemented in this boilerplate. "
-                "Use the synthetic demo or add your own loading logic."
-            )
-
-        corpus, queries, qrels = self._load_synthetic()
-
-        doc_ids = list(corpus.keys())
-        doc_texts = [corpus[d] for d in doc_ids]
-        query_ids = list(queries.keys())
-        query_texts = [queries[q] for q in query_ids]
-
-        doc_embs = encode_with_cache(
-            model, doc_texts, dataset_name=f"{self.name}__corpus", cache_dir=cache_dir, **kwargs
-        )
-        q_embs = encode_with_cache(
-            model, query_texts, dataset_name=f"{self.name}__queries", cache_dir=cache_dir, **kwargs
-        )
-
-        # Similarity matrix: (n_queries, n_docs)
-        scores = q_embs @ doc_embs.T
-
-        ndcg_scores = []
-        recall_scores = []
-
-        for i, qid in enumerate(query_ids):
-            relevant = set(qrels.get(qid, {}).keys())
-            if not relevant:
-                continue
-
-            ranked_doc_ids = [doc_ids[j] for j in np.argsort(-scores[i])[: self.top_k]]
-
-            # NDCG@k
-            dcg = sum(
-                1.0 / np.log2(rank + 2)
-                for rank, did in enumerate(ranked_doc_ids)
-                if did in relevant
-            )
-            ideal_dcg = sum(1.0 / np.log2(r + 2) for r in range(min(len(relevant), self.top_k)))
-            ndcg_scores.append(dcg / ideal_dcg if ideal_dcg > 0 else 0.0)
-
-            # Recall@k
-            hits = sum(1 for did in ranked_doc_ids if did in relevant)
-            recall_scores.append(hits / len(relevant))
-
-        ndcg = float(np.mean(ndcg_scores)) if ndcg_scores else 0.0
-        recall = float(np.mean(recall_scores)) if recall_scores else 0.0
-
-        return {
-            f"ndcg@{self.top_k}": ndcg,
-            f"recall@{self.top_k}": recall,
-            "main_score": ndcg,
-        }
-
 
 # ---------------------------------------------------------------------------
 # Clustering - for demo purposes
@@ -250,7 +147,7 @@ class ClusteringTask(Task):
 
 
 # ---------------------------------------------------------------------------
-# Likert Continuum (WVS) - placeholder loader
+# Likert Continuum (WVS)
 # ---------------------------------------------------------------------------
 
 @dataclass
@@ -258,7 +155,7 @@ class LikertContinuumWVSTask(Task):
     """
     WVS Likert continuum benchmark.
 
-    For each WVS question, embeds its statements, projects them onto the
+    For each WVS-derived statement, projects them onto the
     first PCA axis, and computes the absolute Spearman correlation with the
     corresponding numeric codes. Reports the mean correlation across questions.
 
